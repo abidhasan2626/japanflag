@@ -1,0 +1,98 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	height: 100vh;
+	background: #71a7e7;
+}
+
+.white-box {
+	width:400px;
+	height:250px;
+	background:#fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.red-box{
+	width: 120px;
+	height: 120px;
+	background: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 100%;
+}
+
+
+
+.fb {
+	width:150px;
+	height: 50px;
+	top: 20px;
+	right: 0;
+	position: fixed;
+	margin-right: -100px;
+	transition: 1s;
+
+}
+
+.twitter {
+	width:150px;
+	height: 50px;
+	bottom: 480px;
+	right: 0;
+	position: fixed;
+	margin-right: -100px;
+	transition: 1s;
+
+}
+
+.fb:hover {
+	margin-right: 0px;
+	cursor: pointer;
+}
+
+.twitter:hover {
+	margin-right: 0px;
+	cursor: pointer;
+}
+
+.social-icons{
+	widht:100px;
+	padding-top: 500px;
+	text-align: center;
+}
+
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+
+.social-icons li a{
+	display: block;
+	margin: 0px 10px;
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: #fff;
+	color:red;
+	transition: 1s;
+}
+
+.social-icons li a:hover {
+	background: red;
+	border-radius: 100%;
+	color: #fff;
+
+}
